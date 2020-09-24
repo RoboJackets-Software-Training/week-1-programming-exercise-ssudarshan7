@@ -1,0 +1,4 @@
+/home/sathya/Desktop/robojackets/week-1-programming-exercise-ssudarshan7/exercise_1_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sathya/Desktop/robojackets/week-1-programming-exercise-ssudarshan7/exercise_1_2/cmake-build-debug/CMakeFiles/exercise_1_2_2.dir
+/home/sathya/Desktop/robojackets/week-1-programming-exercise-ssudarshan7/exercise_1_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/sathya/Desktop/robojackets/week-1-programming-exercise-ssudarshan7/exercise_1_2/cmake-build-debug/CMakeFiles/exercise_1_2_1.dir
