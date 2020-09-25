@@ -37,6 +37,37 @@ int main() {
 
   // TODO write your code here
   // =========== START =========
+  std::cout << "x = {"<<x[0];
+  for(int i = 1; i < x.size(); i++) {
+      std::cout << ", " << x[i];
+  }
+  std::cout << "}\n";
+  std::cout << "w = {"<<w[0];
+  for(int i = 1; i < w.size(); i++) {
+        std::cout << ", " << w[i];
+  }
+  std::cout << "}\n";
+  int fill_size = (w.size() - 1)/2;
+  for(int i=0; i<x.size(); i++) {
+      double collect = 0;
+      for (int j = 0; j < w.size(); j++) {
+          if (i + j - fill_size > 0 && i + j - fill_size < x.size()) {
+              collect += x[i + j - fill_size] * w[j];
+          } else if (i + j - fill_size < 0) {
+              collect += x[0]*w[j];
+          } else if (i + j - fill_size > x.size()){
+              collect += x[x.size()-1]*w[j];
+          }
+      }
+      y.push_back(collect);
+  }
+    std::cout << "y = {"<<y[0];
+    for(int i = 1; i < y.size(); i++) {
+        std::cout << ", " << y[i];
+    }
+    std::cout << "}\n";
+
+
 
 
 

@@ -5,6 +5,8 @@ int main()
 {
     // Part 1: Vector Reversal
 
+
+
     // Input vector from command-line
     std::vector<int> list;
     int input = 0;
@@ -24,7 +26,15 @@ int main()
 
     // Reverse Vector
     // WRITE YOUR VECTOR REVERSAL HERE
-
+    int start = 0;
+    int end = list.size() - 1;
+    while (start < end) {
+      int temp = list[start];
+      list[start] = list[end];
+      list[end] = temp;
+      start++;
+      end--;
+    }
     // Print the Reversed vector
     std::cout << "Reversed Vector: ";
     for (int v : list)
